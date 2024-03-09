@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg_comp-lthifvao" class="gSXewE"><defs><filter id="midnight-comp-lthifvao" color-interpolation-filters="sRGB">
+    <feComponentTransfer result="srcRGB"/>
+    <feComponentTransfer><feFuncR type="linear" slope="0.75" intercept="0.13"/>
+<feFuncG type="linear" slope="0.75" intercept="0.13"/>
+<feFuncB type="linear" slope="0.75" intercept="0.13"/></feComponentTransfer>
+<feComponentTransfer><feFuncR type="linear" slope="1.2"/><feFuncG type="linear" slope="1.2"/><feFuncB type="linear" slope="1.2"/></feComponentTransfer>
+<feColorMatrix type="saturate" values="0" result="grayscale"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0&#10;0 0 0 0 0.1450980392156863&#10;0 0 0 0 0.29411764705882354&#10;0 0 0 1 0" in="SourceGraphic" result="color"/>
+<feBlend mode="multiply" in="grayscale" in2="color"/>
+    <feComponentTransfer/>
+</filter></defs></svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg_comp-lrslpe78" class="gSXewE"><defs><filter id="darken-comp-lrslpe78" color-interpolation-filters="sRGB">
+    <feComponentTransfer result="srcRGB"/>
+    <feComponentTransfer result="brightness"><feFuncR type="linear" slope="0.4"/><feFuncG type="linear" slope="0.4"/><feFuncB type="linear" slope="0.4"/></feComponentTransfer>
+<feBlend mode="darken" in="brightness" in2="SourceGraphic"/>
+    <feComponentTransfer/>
+</filter></defs></svg>

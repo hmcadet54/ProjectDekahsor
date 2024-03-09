@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg_comp-lrsjqsrr" class="gSXewE"><defs><filter id="kennedy-comp-lrsjqsrr" color-interpolation-filters="sRGB">
+    <feComponentTransfer result="srcRGB"/>
+    <feColorMatrix type="saturate" values="0"/>
+<feComponentTransfer><feFuncR type="linear" slope="1.1" intercept="-0.05"/>
+<feFuncG type="linear" slope="1.1" intercept="-0.05"/>
+<feFuncB type="linear" slope="1.1" intercept="-0.05"/></feComponentTransfer>
+<feComponentTransfer><feFuncR type="linear" slope="0.9"/><feFuncG type="linear" slope="0.9"/><feFuncB type="linear" slope="0.9"/></feComponentTransfer>
+    <feComponentTransfer/>
+</filter></defs></svg>

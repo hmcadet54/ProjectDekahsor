@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg_comp-lthuiskt" class="gSXewE"><defs><filter id="yellowstreak-comp-lthuiskt" color-interpolation-filters="sRGB">
+    <feComponentTransfer result="srcRGB"/>
+    <feComponentTransfer><feFuncR type="linear" slope="2" intercept="-0.5"/>
+<feFuncG type="linear" slope="2" intercept="-0.5"/>
+<feFuncB type="linear" slope="2" intercept="-0.5"/></feComponentTransfer>
+<feComponentTransfer><feFuncR type="linear" slope="1.1"/><feFuncG type="linear" slope="1.1"/><feFuncB type="linear" slope="1.1"/></feComponentTransfer>
+<feColorMatrix type="saturate" values="0" result="grayscale"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1&#10;0 0 0 0 0.8235294117647058&#10;0 0 0 0 0&#10;0 0 0 1 0" result="color"/>
+<feBlend mode="multiply" in="grayscale" in2="color"/>
+    <feComponentTransfer/>
+</filter></defs></svg>

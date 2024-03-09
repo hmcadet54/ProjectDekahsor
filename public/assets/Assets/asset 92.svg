@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg_comp-lrqrskvk" class="gSXewE"><defs><filter id="kerouac-comp-lrqrskvk" color-interpolation-filters="sRGB">
+    <feComponentTransfer result="srcRGB"/>
+    <feColorMatrix type="saturate" values="0"/>
+<feColorMatrix type="matrix" values="0.49411764705882355 0 0 0 0.21568627450980393 0.4666666666666667 0 0 0 0.19215686274509805 0.45490196078431366 0 0 0 0.1803921568627451 0 0 0 1 0"/>
+    <feComponentTransfer/>
+</filter></defs></svg>

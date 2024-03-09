@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg_comp-lthifiwj" class="gSXewE"><defs><filter id="nightrain-comp-lthifiwj" color-interpolation-filters="sRGB">
+    <feComponentTransfer result="srcRGB"/>
+    <feColorMatrix type="saturate" values="0"/>
+<feColorMatrix type="matrix" values="0.37254901960784315 0 0 0 0.1843137254901961 0.35294117647058826 0 0 0 0.23529411764705882 0.28235294117647064 0 0 0 0.42745098039215684 0 0 0 1 0"/>
+    <feComponentTransfer/>
+</filter></defs></svg>

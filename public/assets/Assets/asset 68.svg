@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg_comp-lrs4c5a9" class="gSXewE"><defs><filter id="koolaid-comp-lrs4c5a9" color-interpolation-filters="sRGB">
+    <feComponentTransfer result="srcRGB"/>
+    <feColorMatrix type="saturate" values="0"/>
+<feColorMatrix type="matrix" values="0.6196078431372549 0 0 0 0.37254901960784315 0.807843137254902 0 0 0 0 0.07843137254901955 0 0 0 0.6784313725490196 0 0 0 1 0"/>
+    <feComponentTransfer/>
+</filter></defs></svg>
