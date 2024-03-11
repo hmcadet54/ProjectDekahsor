@@ -1,3 +1,6 @@
+
+
+
 @font-face {
     font-family: Zolina;
     src: url(../fonts/Zolina/Zolina-Regular.ttf);
@@ -11,16 +14,22 @@
 :root
 {
     font-family: Zolina;
+    --theme-color: #7C6B40;
 
+}
+.text-color
+{
+    color: var(--theme-color);
+    font-weight: 600 !important;
 }
 .Myvideo video
 {
-    border-radius: 10px;
+    border-radius: 10px !important;
 }
 
 #font1
 {
-    font-family: Zolina !important;
+    font-family: poppins !important;
 }
 #font2
 {
@@ -38,4 +47,140 @@
     border: 1px solid black !important;
 }
 
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes slide2{
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    /* padding: 60px 0; */
+    /* background: white; */
+    white-space: nowrap;
+    position: relative;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+
+  }
+
+  
+
+  
+  .logos-slide {
+    /* width: 80%; */
+    display: inline-block;
+    animation: 20s slide infinite linear;
+    z-index: 2;
+  }
+  .logos-slide img{
+    width: 200px;
+    height: 200px;
+  
+  }
+  .logos-slide2 {
+    /* width: 80%; */
+    display: inline-block;
+    animation: 20s slide2 infinite linear;
+    z-index: 2;
+  }
+  
+  .logos-slide2 img{
+    width: 200px;
+    height: 200px;
+  
+  }
+.bannerHead
+{
+    background: var(--theme-color);
+    z-index: -2;
+    
+}
+.bannerHead h1{
+    color: var(--theme-color);
+}
+
+  .BannerSmall
+  {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 2rem;
+    background: #1B1B1B;
+    margin-top: -10px;
+    
+  }
+  .bannersmall-inner
+  {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+  }
+  .bannersmall-inner img
+  {
+    width: 90%;
+    /* object-fit: cover; */
+  }
+  .jsFLexEnd{
+    align-items: flex-end !important;
+  }
+
+  .fPrImg
+  {
+    border-radius: 10px !important;
+  }
+
+
+  #COntainer3d
+  {
+    width: 100% !important;
+    /* height: 100%; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+    padding-top: 10px;
+  }
+
+  #dContainer {
+    width: 400px; /* Set container width to 400px */
+    height: 500px; /* Set container height to 600px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+#dContainer canvas {
+    width: 100%; /* Fill the available width */
+    height: 100%; /* Fill the available height */
+    max-width: 400px; /* Limit canvas width to 400px */
+    max-height: 500px; /* Limit canvas height to 600px */
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Container3dHeading
+{
+    width: 70% !important;
+    /* border: 1px solid black; */
+}
 

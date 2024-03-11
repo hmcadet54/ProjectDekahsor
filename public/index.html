@@ -10,7 +10,7 @@
   <!-- ===============================================-->
   <!--    Document Title-->
   <!-- ===============================================-->
-  <title>Fotogency | Photography Agency Template</title>
+  <title>DKC</title>
 
 
   <!-- ===============================================-->
@@ -39,6 +39,16 @@
   <link href="assets/css/user.css" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/sectionHome.css">
 
+  <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@v0.153.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@v0.153.0/examples/jsm/"
+      }
+    }
+  </script>
+
 </head>
 
 
@@ -54,8 +64,8 @@
         <div class="row w-100 g-0 justify-content-between">
           <div class="col-8">
             <div class="d-inline-block"><a class="navbar-brand pt-0fs-3 text-black d-flex align-items-center Myimage"
-                href="index.html"><img class="img-fluid Myimage" src="assets/Assets/asset 0.png" alt="" /><span
-                  class="fw-bolder ms-2">DKC</span><span class="fw-thin">Crafts</span></a></div>
+                href="index.html"><img class="img-fluid Myimage" src="assets/MyAssets/asset 0.png" alt="" /><span
+                  class="fw-bolder ms-2">DKC</span><span class="fw-thin"></span></a></div>
           </div>
           <div class="col-4 d-lg-none text-end pe-0">
             <button class="btn p-0 shadow-none text-black fs-2 d-inline-block" data-bs-toggle="offcanvas"
@@ -75,15 +85,15 @@
                   <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5 active"
                       aria-current="page" href="index.html">Home</a></li>
                   <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5"
-                      aria-current="page" href="portfolio.html">Portfolio</a></li>
+                      aria-current="page" href="#">Portfolio</a></li>
                   <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5"
-                      aria-current="page" href="gallery.html">Gallery</a></li>
+                      aria-current="page" href="#">Gallery</a></li>
                   <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5"
-                      aria-current="page" href="exhibitions.html">Exhibitions</a></li>
+                      aria-current="page" href="#">Exhibitions</a></li>
                   <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5"
-                      aria-current="page" href="about.html">About</a></li>
+                      aria-current="page" href="#">About</a></li>
                   <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5"
-                      aria-current="page" href="blog.html">Blog</a></li>
+                      aria-current="page" href="#">Blog</a></li>
                 </ul>
               </div>
             </div>
@@ -94,20 +104,20 @@
                 <h1 class="ms-2 fw-bold text-outlined text-uppercase text-white pe-none display-2">Home</h1>
               </div>
               <div class="d-flex gap-3 align-items-start"><a
-                  class="mb-0 ms-auto text-warning fs-0 fw-bold text-uppercase" href="blog.html#contact">Contact Now</a>
+                  class="mb-0 ms-auto text-warning fs-0 fw-bold text-uppercase" href="#">Contact Now</a>
                 <ul class="navbar-nav navbar-fotogency ms-auto text-end">
                   <li class="nav-item px-2 position-relative"><a class="nav-link pt-0 active" aria-current="page"
                       href="index.html">Home</a></li>
                   <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page"
-                      href="portfolio.html">Portfolio</a></li>
+                      href="#">Portfolio</a></li>
                   <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page"
-                      href="gallery.html">Gallery</a></li>
+                      href="#">Gallery</a></li>
                   <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page"
-                      href="exhibitions.html">Exhibitions</a></li>
+                      href="#">Exhibitions</a></li>
                   <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page"
-                      href="about.html">About</a></li>
+                      href="#">About</a></li>
                   <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page"
-                      href="blog.html">Blog</a></li>
+                      href="#">Blog</a></li>
                 </ul>
               </div>
             </div>
@@ -123,23 +133,24 @@
 
       <div class="container px-md-5">
         <div class="row">
-          <div class="col-md-9 col-lg-7 mt-6">
+          <div class="col-md-9 col-lg-7 mb-8 mt-4">
             <h1 class="fs-4 fs-md-6 fs-xl-7 mb-5 mb-lg-0 position-relative z-index-2" id="font1">De Koshur Crafts <span
-                class="fw-thin text-300">Lorem, ipsum dolor. </span><span class="text-400">Lorem, ipsum dolor.</span>
+                class="fw-thin text-300"></span><span class="text-400"></span>
             </h1>
           </div>
         </div>
-        <div class="row mt-md-n6">
-          <div class="col-2 d-none d-lg-block mt-auto">could be 3d model of Amir HERE<img class="img-fluid"
-              src="assets/img/home/img2.png" alt="" />
-          </div>
-          <div class="col-1 mt-auto d-none d-lg-block"><a class="scroll-indicator text-warning" href="#footer">
-              <span>SCROLL </span><img src="assets/img/icons/lineDown.gif" alt="" /></a></div>
+        <div class="row mt-md-n6 mt-8">
+          <div class="col-2 d-none d-lg-block mt-auto"><img class="img-fluid rounded-3"
+            src="assets/img/home/home5.png" alt="" />
+        </div>
+          <div class="col-1 mt-auto d-none d-lg-block mb-5 "><a class="scroll-indicator text-warning" href="#Threed">
+              <span>SCROLL </span><img src="./assets/MyAssets/arraow.svg" alt="" /></a>
+            </div>
           <div class="col-lg-7 position-relative">
-            <div class="position-relative overflow-hidden Myvideo">
-              <video autoplay loop muted src="./assets/img/home/Untitled design.mp4"></video>
-              <div class="img-circle p-5 p-md-7 rounded-circle"></div>
-              <div class="img-circle-2 p-5 p-md-7 rounded-circle"></div>
+            <div class="position-relative overflow-hidden rounded-3">
+              <video class="rounded-3" autoplay loop muted  src="./assets/img/home/Untitled design.mp4"></video>
+              <!-- <div class="img-circle p-5 p-md-7 rounded-circle"></div>
+              <div class="img-circle-2 p-5 p-md-7 rounded-circle"></div> -->
             </div>
             <div class="position-absolute bottom-n100 col-11 mt-6 d-none d-md-block">
               <p class="fs-2 lh-1 text-400">There are many variations of passages of Lorem Ipsum available, but the
@@ -148,12 +159,12 @@
                 suffered alteration in some form, by injected humour,</p>
             </div>
             <div class="position-absolute start-0 bottom-0 d-lg-none"><a class="scroll-indicator text-warning"
-                href="#footer"> <span>SCROLL </span><img src="assets/img/icons/long-arrow.png" alt="" /></a></div>
+                href="#Threed"> <span>SCROLL </span><img src="./assets/MyAssets/arraow.svg" alt="" /></a></div>
           </div>
-          <div class="col-2 d-none d-lg-block mb-auto">Some more 3d models of crafts HERE<img class="img-fluid"
-              src="assets/img/home/img3.png" alt="" />
-            <img class="img-fluid mt-2" src="assets/img/home/img3.png" alt="" />
-            <img class="img-fluid mt-2" src="assets/img/home/img3.png" alt="" />
+          <div class="col-2 d-none d-lg-block mb-auto"><img class="img-fluid rounded-3"
+              src="assets/img/home/3.png" alt="" />
+            <img class="img-fluid mt-2 rounded-3" src="assets/img/home/1.png" alt="" />
+            <img class="img-fluid mt-2 rounded-3" src="assets/img/home/2.png" alt="" />
           </div>
 
         </div>
@@ -162,80 +173,147 @@
 
     </section>
 
+    <!-- ============================= -->
+    <div id="Threed"></div>
+    <section >
+      <div id="COntainer3d">
+        <div id="dContainer"></div> <!-- Set width and height to 100% -->
+        <div class="Container3dHeading">
+          <h1>Our Story</h1>
+          <p class="text-color text">"Reigniting Amir-e-Kabir's Purpose in the Modern Era, believing in his openness and
+            collaboration"</p>
+          <p class="text-400">DE KOSHUR CRAFTS didn't just outreached Kashmiri handicrafts. We actively sought
+            opportunities to
+            collaborate with businesses in the USA. DKC's mission-driven approach has paid off in ways, we could have
+            never imagined. Let's break the mold of cutthroat competition and invite others to join us on this journey.
+            We raised $1.3 million as business capital for the upliftment of Kashmir art and craft. This significant
+            milestone meant more than just funds; it symbolized hope, dedication, and the power of community. The small
+            community of Kashmiri immigrants in the U.S. had shown that even from thousands of miles away, they could
+            make a profound impact on the lives of their brethren in Kashmir. Amir-e-Kabir's dream needs to illuminate
+            the path for generations to come. </p>
+          <p class="text-400">
+            DE KOSHUR CRAFTS didn't just outreached Kashmiri handicrafts. We actively sought opportunities to
+            collaborate with businesses in the USA. DKC's mission-driven approach has paid off in ways, we could have
+            never imagined. Let's break the mold of cutthroat competition and invite others to join us on this journey.
+            We raised $1.3 million as business capital for the upliftment of Kashmir art and craft. This significant
+            milestone meant more than just funds; it symbolized hope, dedication, and the power of community. The small
+            community of Kashmiri immigrants in the U.S. had shown that even from thousands of miles away, they could
+            make a profound impact on the lives of their brethren in Kashmir. Amir-e-Kabir's dream needs to illuminate
+            the path for generations to come.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ==================================== -->
+
 
 
     <!-- ============================= -->
+    <div class="container px-md-5 mt-8">
+      <div class="mt-4 d-none d-lg-block">
+        <h1 id="font1" class="text-uppercase fs-lg-7 fs-5 fw-bolder text-300 lh-1 position-relative z-index-0 ">Featured
+        </h1>
+        <h1 class="d-none d-md-block fw-bolder text-outlined fs-7 text-white lh-1 mt-n4 position-relative z-index--1">
+          Products</h1>
+      </div>
+    </div>
+    <section class="py-3 position-relative ">
 
-    <section class="py-3 mt-6">
       <div class="container-fluid px-0">
-
-        <div class="position-absolute w-100 border-dashed-bottom opacity-25 top-5 z-index-1"></div>
+        <div class="position-absolute w-100 border-dashed-bottom opacity-25 top-5 z-index-2"></div>
         <div class="container px-md-5">
-          <div class="mt-4 d-none d-lg-block">
-            <h1 class="text-uppercase fs-lg-7 fs-5 fw-bolder text-300 lh-1 position-relative z-index-0">Portfolio</h1>
-            <h1
-              class="d-none d-md-block fw-bolder text-outlined fs-7 text-white lh-1 mt-n4 position-relative z-index--1">
-              Selected Works</h1>
-          </div>
-          <div class="row g-0 mt-4">
+          <div class="row g-0">
             <div class="col-lg-12 pb-6 px-0 mb-lg-0">
               <div class="swiper-container swiper-theme"
                 data-swiper='{"slidesPerView":1,"breakpoints":{"576":{"slidesPerView":1.2}},"spaceBetween":30,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"loop":true,"loopedSlides":3,"slideToClickedSlide":true}'>
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div class="row align-items-center">
-                      <div class="col-xl-7">
-                        <div class="position-relative">
-                          <div class="position-absolute start-0 bottom-0 ms-3">
-                            <h3 class="text-white">Mogadisu Somalia</h3>
-                            <p class="text-300">Shooting and Advertisement Campaign</p>
-                          </div><img class="portfolio-img img-fluid" src="assets/img/portfolio/img01.png" alt="" />
-                        </div>
+                    <div class="row align-items-xl-center">
+                      <div class="col-lg-5 fPrImg">
+                        <img class="img-fluid w-100 fPrImg" src="./assets/MyAssets/featured_product/2.png" alt="" />
+                        <div class="position-absolute top-5 start-5 mt-n1 d-flex flex-column align-items-center"><span
+                            class="rounded-circle bg-white p-2 d-block"></span><span
+                            class="text-white fw-bold">2024</span></div>
                       </div>
-                      <div class="col-xl-4 mt-4">
-                        <p class="fs-0">I a genre of Japanese art that became popular in the 17th century through to the
-                          19th century. The word roughly translates as “pictures of the floating world” and artists
-                          belonging to the movement produced woodblock prints and paintings of scenes from history and
-                          folktales, sumo wrestlers, landscapes of flora and fauna, and a touch of erotica.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="row align-items-center">
-                      <div class="col-xl-7">
-                        <div class="position-relative">
-                          <div class="position-absolute start-0 bottom-0 ms-3">
-                            <h3 class="text-white">Mogadisu Somalia</h3>
-                            <p class="text-300">Shooting and Advertisement Campaign</p>
-                          </div><img class="portfolio-img img-fluid" src="assets/img/portfolio/img02.png" alt="" />
-                        </div>
-                      </div>
-                      <div class="col-xl-4 mt-4">
-                        <p class="fs-0">I a genre of Japanese art that became popular in the 17th century through to the
-                          19th century. The word roughly translates as “pictures of the floating world” and artists
-                          belonging to the movement produced woodblock prints and paintings of scenes from history and
-                          folktales, sumo wrestlers, landscapes of flora and fauna, and a touch of erotica.</p>
+                      <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
+                        <h1 class="fw-bolder mb-3">Lorem ipsum dolor sit amet.</h1>
+                        <p class="text-warning fs-3 opacity-75">Lorem, ipsum dolor.</p>
+                        <p class="fs-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo obcaecati quod
+                          blanditiis modi. Dignissimos, eos explicabo ea debitis eligendi non soluta cupiditate minima
+                          optio distinctio, corporis placeat quis quibusdam rerum similique! Maiores, quos totam? Saepe
+                          eos doloribus harum ab!</p>
+                        <button class="btn btn-link text-warning p-0 fs-2"><span class="fw-bolder">Details </span><img
+                            class="ms-3" src="assets/img/icons/arrowDown.gif" alt="" /></button>
                       </div>
                     </div>
                   </div>
                   <div class="swiper-slide">
-                    <div class="row align-items-center">
-                      <div class="col-xl-7">
-                        <div class="position-relative">
-                          <div class="position-absolute start-0 bottom-0 ms-3">
-                            <h3 class="text-white">Mogadisu Somalia</h3>
-                            <p class="text-300">Shooting and Advertisement Campaign</p>
-                          </div><img class="portfolio-img img-fluid" src="assets/img/portfolio/img03.png" alt="" />
-                        </div>
+                    <div class="row align-items-xl-center">
+                      <div class="col-lg-5"><img class="img-fluid w-100 fPrImg"
+                          src="./assets/MyAssets/featured_product/1.png" alt="" />
+                        <div class="position-absolute top-5 start-5 mt-n1 d-flex flex-column align-items-center"><span
+                            class="rounded-circle bg-white p-2 d-block"></span><span
+                            class="text-white fw-bold">2024</span></div>
                       </div>
-                      <div class="col-xl-4 mt-4">
-                        <p class="fs-0">I a genre of Japanese art that became popular in the 17th century through to the
-                          19th century. The word roughly translates as “pictures of the floating world” and artists
-                          belonging to the movement produced woodblock prints and paintings of scenes from history and
-                          folktales, sumo wrestlers, landscapes of flora and fauna, and a touch of erotica.</p>
+                      <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
+                        <h1 class="fw-bolder mb-3">Lorem ipsum dolor sit amet.
+                        </h1>
+                        <p class="text-warning fs-3 opacity-75">Lorem, ipsum dolor.</p>
+                        <p class="fs-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam officia,
+                          repudiandae deserunt, itaque dolorum, maiores eaque optio sapiente eius voluptatibus rerum.
+                          Inventore pariatur aperiam et quidem ipsa hic velit, blanditiis, unde cupiditate voluptas
+                          doloribus iste illum! Voluptates alias nostrum nemo!</p>
+                        <button class="btn btn-link text-warning p-0 fs-2"><span class="fw-bolder">Details </span><img
+                            class="ms-3" src="assets/img/icons/arrowDown.gif" alt="" /></button>
                       </div>
                     </div>
                   </div>
+                  <div class="swiper-slide">
+                    <div class="row align-items-xl-center">
+                      <div class="col-lg-5"><img class="img-fluid w-100 fPrImg"
+                          src="./assets/MyAssets/featured_product/3.png" alt="" />
+                        <div class="position-absolute top-5 start-5 mt-n1 d-flex flex-column align-items-center"><span
+                            class="rounded-circle bg-white p-2 d-block"></span><span
+                            class="text-white fw-bold">2015</span></div>
+                      </div>
+                      <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
+                        <h1 class="fw-bolder mb-3">Lorem ipsum dolor sit amet.</h1>
+                        <p class="text-warning fs-3 opacity-75">Individual</p>
+                        <p class="fs-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque velit,
+                          accusantium in a reprehenderit, debitis ipsa quasi culpa pariatur, maiores tenetur ea possimus
+                          molestiae eos delectus consectetur animi accusamus? Temporibus sapiente sit quidem beatae,
+                          fugiat itaque architecto cupiditate accusantium ea.</p>
+                        <button class="btn btn-link text-warning p-0 fs-2"><span class="fw-bolder">Details </span><img
+                            class="ms-3" src="assets/img/icons/arrowDown.gif" alt="" /></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="row align-items-xl-center">
+                      <div class="col-lg-5"><img class="img-fluid w-100 fPrImg"
+                          src="./assets/MyAssets/featured_product/1.png" alt="" />
+                        <div class="position-absolute top-5 start-5 mt-n1 d-flex flex-column align-items-center"><span
+                            class="rounded-circle bg-white p-2 d-block"></span><span
+                            class="text-white fw-bold">2024</span></div>
+                      </div>
+                      <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
+                        <h1 class="fw-bolder mb-3">Lorem ipsum dolor sit amet.
+                        </h1>
+                        <p class="text-warning fs-3 opacity-75">Lorem, ipsum dolor.</p>
+                        <p class="fs-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam officia,
+                          repudiandae deserunt, itaque dolorum, maiores eaque optio sapiente eius voluptatibus rerum.
+                          Inventore pariatur aperiam et quidem ipsa hic velit, blanditiis, unde cupiditate voluptas
+                          doloribus iste illum! Voluptates alias nostrum nemo!</p>
+                        <button class="btn btn-link text-warning p-0 fs-2"><span class="fw-bolder">Details </span><img
+                            class="ms-3" src="assets/img/icons/arrowDown.gif" alt="" /></button>
+                      </div>
+                    </div>
+                  </div>
+
+
                 </div>
               </div>
               <div class="swiper-theme swiper-pagination d-flex mt-4"></div>
@@ -246,12 +324,86 @@
       <!-- end of .container-->
 
     </section>
+    <section>
+      <div class="logos">
+        <div class="logos-slide">
+          <img src="./assets/MyAssets/Logos/1.svg" alt="">
+          <img src="./assets/MyAssets/Logos/2.svg" alt="">
+          <img src="./assets/MyAssets/Logos/18.svg" alt="">
+          <img src="./assets/MyAssets/Logos/4.svg" alt="">
+          <img src="./assets/MyAssets/Logos/17.svg" alt="">
+          <img src="./assets/MyAssets/Logos/3.svg" alt="">
+          <img src="./assets/MyAssets/Logos/5.svg" alt="">
+        </div>
+
+        <div class="logos-slide">
+          <img src="./assets/MyAssets/Logos/1.svg" alt="">
+          <img src="./assets/MyAssets/Logos/2.svg" alt="">
+          <img src="./assets/MyAssets/Logos/18.svg" alt="">
+          <img src="./assets/MyAssets/Logos/4.svg" alt="">
+          <img src="./assets/MyAssets/Logos/17.svg" alt="">
+          <img src="./assets/MyAssets/Logos/3.svg" alt="">
+          <img src="./assets/MyAssets/Logos/5.svg" alt="">
+
+        </div>
+      </div>
+
+      <div class="logos">
+        <div class="logos-slide2">
+          <img src="./assets/MyAssets/Logos/6.svg" alt="">
+          <img src="./assets/MyAssets/Logos/20.svg" alt="">
+          <img src="./assets/MyAssets/Logos/8.svg" alt="">
+          <img src="./assets/MyAssets/Logos/9.svg" alt="">
+          <img src="./assets/MyAssets/Logos/19.svg" alt="">
+          <img src="./assets/MyAssets/Logos/7.svg" alt="">
+          <img src="./assets/MyAssets/Logos/10.svg" alt="">
+        </div>
+
+        <div class="logos-slide2">
+          <img src="./assets/MyAssets/Logos/6.svg" alt="">
+          <img src="./assets/MyAssets/Logos/20.svg" alt="">
+          <img src="./assets/MyAssets/Logos/8.svg" alt="">
+          <img src="./assets/MyAssets/Logos/9.svg" alt="">
+          <img src="./assets/MyAssets/Logos/19.svg" alt="">
+          <img src="./assets/MyAssets/Logos/7.svg" alt="">
+          <img src="./assets/MyAssets/Logos/10.svg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container px-md-5 bannerHead">
+        <div class="mt-4 d-none d-lg-block py-3">
+          <h1 id="font1" class="text-uppercase fs-lg-7 fs-5 fw-bolder text-white lh-1 position-relative z-index-0 ">We
+            Care</h1>
+          <h1 class="d-none d-md-block fw-bolder text-outlined fs-7 lh-3 mt-n4 position-relative z-index--1">
+            Our Craft, Artisans, Environment and Clients.</h1>
+        </div>
+      </div>
+      <div class="BannerSmall">
+        <div class="bannersmall-inner">
+          <img src="./assets/MyAssets/banners-inner/1.png" alt="">
+        </div>
+        <div class="bannersmall-inner jsFLexEnd">
+          <img src="./assets/MyAssets/banners-inner/2.png" alt="">
+        </div>
+        <div class="bannersmall-inner">
+          <img src="./assets/MyAssets/banners-inner/3.png" alt="">
+        </div>
+        <div class="bannersmall-inner jsFLexEnd">
+          <img src="./assets/MyAssets/banners-inner/4.png" alt="">
+        </div>
+        <div class="bannersmall-inner">
+          <img src="./assets/MyAssets/banners-inner/5.png" alt="">
+        </div>
+      </div>
+    </section>
 
 
 
     <!-- ======================================= -->
 
-   
+
     <!-- <section> close ============================-->
     <!-- ============================================-->
 
@@ -267,16 +419,15 @@
       <div class="row g-0">
         <div class="col-md-6 mb-5 mb-md-0">
           <div class="mb-4 d-inline-block"><a class="navbar-brand pt-0 fs-3 text-white d-flex align-items-center"
-              href="index.html"><img class="img-fluid" src="assets/img/icons/dark-logo-icon.png" alt="" width="25"
-                height="25" /><span class="fw-bolder ms-2">Foto</span><span class="fw-thin">gency</span></a></div>
+              href="index.html"><img class="img-fluid" src="./assets/MyAssets/asset 0.png" alt="" width="65"
+                height="65" /><span class="fw-bolder ms-2">DKC</span><span class="fw-thin">De Kashour Crafts</span></a></div>
           <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-map-marker-alt"></i><a
               class="nav-link text-300 d-inline"
-              href="https://www.google.com/maps/place/2109+WS+09+Oxford+Rd+%23127+ParkVilla+Hills,+">2109 WS 09 Oxford
-              Rd #127 ParkVilla Hills, MI 48334</a></div>
+              href="https://www.google.com/maps/place/2109+WS+09+Oxford+Rd+%23127+ParkVilla+Hills,+">Some where on earth</a></div>
           <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-phone"></i><a class="nav-link text-300 d-inline"
               href="tel:+8801976476893">+88 019 76456893</a></div>
           <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-envelope"></i><a
-              class="nav-link text-300 d-inline" href="mailto:scrscrumbledegg@gmail.com">scrumbledegg@gmail.com</a>
+              class="nav-link text-300 d-inline" href="#">dkc@gmail.com</a>
           </div>
         </div>
         <div class="col-md-6">
@@ -288,7 +439,7 @@
               <label class="text-300 mb-1" for="email">Email</label>
               <div class="position-absolute end-0 top-0">
                 <button class="btn shadow-none px-0" type="submit"><img class="ms-3"
-                    src="assets/img/icons/long-arrow.png" alt="" /></button>
+                    src="./assets/MyAssets/arraow.svg" alt="" /></button>
               </div>
             </div>
           </form>
@@ -312,7 +463,7 @@
     <div class="container px-md-5">
       <div class="row g-0 justify-content-md-between justify-content-evenly py-4">
         <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
-          <p class="fs--1 my-2 fw-light text-100">All rights Reserved &copy; Your Company, 2022</p>
+          <p class="fs--1 my-2 fw-light text-100">All rights Reserved &copy; DKC, 2024</p>
         </div>
         <div class="col-12 col-sm-8 col-md-6">
           <p class="fs--1 fw-light my-2 text-center text-md-end text-100"> Made with&nbsp;
@@ -321,8 +472,8 @@
               <path
                 d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z">
               </path>
-            </svg>&nbsp;by&nbsp;<a class="fw-bold text-warning" href="https://themewagon.com/"
-              target="_blank">ThemeWagon</a>
+            </svg>&nbsp;by&nbsp;<a class="fw-bold text-warning" href="#"
+              target="_blank">Abdullah</a>
           </p>
         </div>
       </div>
@@ -339,7 +490,7 @@
   <!-- ===============================================-->
   <!--    JavaScripts-->
   <!-- ===============================================-->
-  <script src="assets/js/custom.js"></script>
+  <script type="module" src="assets/js/custom.js"></script>
   <script src="assets/js/typed.js"></script>
   <script src="vendors/popper/popper.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.min.js"></script>
