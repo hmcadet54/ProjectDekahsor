@@ -41,6 +41,40 @@
     height: 100px;
     /* border: 1px solid black !important; */
 }
+.Blob {
+    width: 20%;
+    position: absolute;
+    z-index: -4;
+    top: 30px;
+    left: 30px;
+    filter: blur(90px);
+}
+
+.Blob1 {
+    width: 20%;
+    position: absolute;
+    z-index: -4;
+    top: 700px;
+    right: 60px;
+    filter: blur(90px);
+}
+
+.Blob2 {
+    width: 20%;
+    position: absolute;
+    z-index: -4;
+    top: 2000px;
+    right: 300px;
+    filter: blur(100px);
+}
+.Blob4 {
+    width: 50%;
+    position: absolute;
+    z-index: -4;
+    top: 2900px;
+    right: 300px;
+    filter: blur(110px);
+}
 
 .b1
 {
